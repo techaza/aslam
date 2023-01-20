@@ -289,6 +289,11 @@ class home extends StatelessWidget {
           ],
         ),
       ),
+      bottomNavigationBar: BottomNavigationBar(items: [
+        BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
+        BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
+        BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home")
+      ]),
     );
   }
 }
